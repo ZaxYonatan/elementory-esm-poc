@@ -2,7 +2,6 @@ import {processRequest} from "cloud-runtime-core"
 const MODULE_TYPE = process.argv[2] // esm \ common
 const USER_CODE_BASE_PATH = `../../../../../user-code-${MODULE_TYPE}`
 
-
 const handleWebMethodRequest = async (request) => {
     console.log(`handling request using the ${MODULE_TYPE} module type`)
     const modulePath = request.params[0]
