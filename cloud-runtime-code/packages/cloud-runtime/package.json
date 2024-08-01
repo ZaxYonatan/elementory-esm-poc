@@ -1,0 +1,9 @@
+{
+  "name": "elementory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@wix/cloud-runtime-core": "1.0.0"
+  }
+}
