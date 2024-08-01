@@ -1,0 +1,7 @@
+{
+    "type": "module",
+    "dependencies": {
+        "an-esm-module": "1.0.0",
+        "a-cjs-module": "1.0.0"
+    }
+}
